@@ -73,6 +73,7 @@
               assign quantity_rule_soldout = true
             endif
           -%}
+          {%- render 'add-text-on-shoes-line-item-property' -%}
           <button
             id="ProductSubmitButton-{{ section_id }}"
             type="submit"

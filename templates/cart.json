@@ -1,7 +1,7 @@
 {
   "sections": {
     "cart-items": {
-      "type": "main-cart-items",
+      "type": "original-cart",
       "settings": {
         "padding_top": 36,
         "padding_bottom": 36
@@ -12,13 +12,11 @@
       "blocks": {
         "subtotal": {
           "type": "subtotal",
-          "settings": {
-          }
+          "settings": {}
         },
         "buttons": {
           "type": "buttons",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
